@@ -1,0 +1,362 @@
+*{
+    font-family: 'Varela Round', sans-serif; /* Change your font family */
+}
+
+#form1 {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+
+.file-upload__button {
+
+    background: #ec008c;
+    border: 2px solid #ec008c;
+    border-radius: 4px;
+    outline: none;
+    padding: 0.5em 0.8em;
+    margin-right: 15px;
+    color: #ffffff;
+    font-size: 1em;
+    font-family: "Varela Round", sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.file-upload__button:active {
+    background: #00745d;
+}
+
+.file-upload__button:hover {
+    transition: 0.5s;
+    opacity: 0.6;
+}
+
+.file-upload__label {
+    max-width: 250px;
+    font-size: 0.95em;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: "Varela Round", sans-serif;
+}
+
+
+#img1{
+    width:150px;
+}
+
+#img2{
+    width:150px;
+}
+
+
+.file-upload {
+    display: inline-flex;
+    align-items: center;
+    font-size: 15px;
+}
+
+.file-upload__input {
+
+}
+
+#btnAjout{
+    -webkit-appearance: none;
+    background-color: #ec008c;
+    border: 2px solid #ec008c;
+    border-radius: 4px;
+    padding: 0.5em 0.5em;
+    margin: auto;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+#btnAjout:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.option{
+    -webkit-appearance: none;
+    background-color: #ec008c;
+    border: 2px solid #ec008c;
+    border-radius: 4px;
+    padding: 0.5em 0.5em;
+    margin: auto;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.option:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    color: white;
+}
+
+.editBtn{
+    -webkit-appearance: none;
+    background-color: #ec008c;
+    border: 2px solid #ec008c;
+    border-radius: 4px;
+    padding: 0.5em 0.5em;
+    margin: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    display: inline;
+}
+
+.editBtn:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    color: white;
+}
+
+.saveBtn{
+    -webkit-appearance: none;
+    background-color: #ec008c;
+    border: 2px solid #ec008c;
+    border-radius: 4px;
+    padding: 0.5em 0.5em;
+    margin: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.saveBtn:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.cancelBtn{
+    -webkit-appearance: none;
+    background-color: #ec008c;
+    border: 2px solid #ec008c;
+    border-radius: 4px;
+    padding: 0.5em 0.5em;
+    margin: auto;
+    margin-right: 10px;
+    color: #ffffff;
+}
+
+.cancelBtn:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.deleteBtn{
+    -webkit-appearance: none;
+    background-color: #ec008c;
+    border: 2px solid #ec008c;
+    border-radius: 4px;
+    padding: 0.5em 0.5em;
+    margin: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    display: inline;
+}
+
+.deleteBtn:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    color: white;
+}
+
+
+#row:hover{
+    color :  #ec008c;
+    transition : 0.5s;
+}
+
+
+
+
+/*Début des id*/
+#banniere{
+    background-color: #ec008c;
+    color: #ffffff;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    height: 75px;
+    border-collapse: collapse;
+    font-size: 1.5em;
+    min-width: 400px;
+    padding-top: 13px;
+    margin-top: 37.5px;
+}
+
+#logo1{
+    background-color: white;
+    border: 2px solid black;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    height: 75px;
+}
+
+#logo2{
+    background-color: white;
+    border: 2px solid black;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    border-radius: 5px 5px 5px 5px;
+    text-align: center;
+    height: 75px;
+}
+
+#divAjout{
+    text-align: center;
+}
+
+#divTableau{
+    text-align: center;
+}
+
+#search{
+    text-align: center;
+}
+
+#searchBox{
+    width: 75%;
+    width: 400px;
+}
+/*Fin des id*/
+
+
+.btnCouleur{
+    text-align: center;
+}
+
+.col-2{
+    text-align: center;
+    width : 150px;
+    margin: auto;
+}
+
+.container{
+    height: 100px;
+}
+
+/*Début du tableau*/
+.content-table {
+    border-collapse: collapse;
+    margin: auto;
+    width: 90%;
+    font-size: 0.9em;
+    min-width: 400px;
+    max-height: 00px;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.content-table thead tr {
+    background-color: #ec008c;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+}
+
+.content-table {
+    border-bottom: 2px solid #d74391;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #ec008c;
+}
+/*Fin du tableau*/
+
+/*Début < Permet de défiler/scroller sur le tableau*/
+.tableFixHead{
+    overflow-y: scroll;
+    height: 350px;
+}
+
+.tableFixHead thead th{
+    background-color: #ec008c;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+/*Fin < Permet de défiler/scroller sur le tableau*/
+
+/*Début < Permet de trier le tableau*/
+.table-sortable th {
+    cursor: pointer;
+}
+
+.table-sortable .th-sort-asc::after {
+    content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+    content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+    margin-left: 5px;
+}
+/*Fin < Permet de trier le tableau*/
+
+/*Début < Menu déroulant de personnalisation*/
+.toggleBtn{
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #ec008c;
+    transition: 0.2s;
+    color:#ffffff;
+}
+
+.toggleBtn:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+}
+
+.toggleBtn::after{
+    content: '\25be';
+    float: right;
+    transform: scale(1.5);
+}
+
+.toggleBtn--active{
+    background-color: #d74391;
+}
+
+.toggleBtn--active::after{
+    content: '\25b4';
+}
+
+.toggle_content{
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.2s;
+    padding: 0 15px;
+}
+
+.toggle{
+    text-align: center;
+}
+/*Fin < Menu déroulant de personnalisation*/
+
